@@ -1,3 +1,5 @@
+![7 30 banner](assets/banner.jpg)
+
 # 7 30
 
 7 30 is a Discord bot for Spanish-speaking communities that plays a scheduled audio event at **07:30** and **19:30**.
