@@ -7,6 +7,12 @@ Each server can select its local timezone from supported Spanish-speaking countr
 
 Built by **SYNC**.
 
+<p align="center">
+  <a href="https://discord.com/oauth2/authorize?client_id=1424582612009095279">
+    <img width="240" src="https://img.shields.io/badge/ADD%20TO%20DISCORD-111111?style=for-the-badge&logo=discord&logoColor=white" alt="Add 7 30 to Discord">
+  </a>
+</p>
+
 ## Features
 
 - Scheduled playback at 07:30 and 19:30.
