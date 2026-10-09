@@ -138,3 +138,5 @@ See [TERMS.md](TERMS.md).
 ## License
 
 See [LICENSE](LICENSE).
+
+Third-party media assets are documented in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
