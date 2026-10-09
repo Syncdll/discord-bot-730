@@ -1,13 +1,14 @@
 # 7 30
 
-A Discord bot that plays a scheduled audio event at **07:30** and **19:30** in every voice channel of a server.
+7 30 is a Discord bot for Spanish-speaking communities that plays a scheduled audio event at **07:30** and **19:30**.
+Each server can select its local timezone from supported Spanish-speaking countries.
 
 Built by **SYNC**.
 
 ## Features
 
 - Scheduled playback at 07:30 and 19:30.
-- Independent timezone configuration for each Discord server.
+- Per-server timezone configuration for supported Spanish-speaking countries.
 - Automatic first-time setup when the bot joins a server.
 - Sequential playback across all voice channels.
 - One automatic retry if playback fails in a channel.
