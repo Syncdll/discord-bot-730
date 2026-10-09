@@ -1,4 +1,4 @@
-![7 30 banner](assets/banner.jpg)
+<img width="2835" height="1001" alt="Readme Banner" src="https://github.com/user-attachments/assets/ac1bdecf-baad-47f8-9a65-403005cd2d2b" />
 
 # 7 30
 
