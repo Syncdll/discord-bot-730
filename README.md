@@ -13,6 +13,8 @@ Built by **SYNC**.
   </a>
 </p>
 
+<p align="center"><sub>USE OURS OR RUN YOURS.</sub></p>
+
 ## Features
 
 - Scheduled playback at 07:30 and 19:30.
