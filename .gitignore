@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data
+data/
+
+# Local backups
+*.bak
+*.bak-*
+index.js.bak*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local / unrelated files
+/mickey-mouse-gallery-10.jpg
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

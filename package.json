@@ -1,0 +1,22 @@
+{
+  "name": "7-30",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Discord bot that plays a scheduled audio event at 07:30 and 19:30.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "0.19.2",
+    "discord.js": "14.27.0",
+    "dotenv": "17.2.3",
+    "ffmpeg-static": "5.2.0",
+    "node-cron": "4.2.1",
+    "opusscript": "0.0.8"
+  }
+}

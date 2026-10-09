@@ -1,0 +1,13 @@
+[Unit]
+Description=7 30 Discord Bot
+After=network.target
+
+[Service]
+User=YOUR_USER
+WorkingDirectory=/mnt/sd/730
+ExecStart=/opt/node22/bin/node /mnt/sd/730/index.js
+Restart=always
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target
