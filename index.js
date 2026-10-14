@@ -275,6 +275,7 @@ async function registerCommandsForGuild(guild) {
       name: 'showconfig',
       description: 'Mostrar configuración actual',
       dm_permission: false,
+      default_member_permissions: String(PermissionFlagsBits.ManageGuild),
     },
   ];
   await guild.commands.set(commands);
@@ -488,6 +489,11 @@ client.on('guildDelete', (guild) => {
 client.on('interactionCreate', async (i) => {
   // /settz → menú
   if (i.isChatInputCommand() && i.commandName === 'settz') {
+    if (!i.memberPermissions?.has(PermissionFlagsBits.ManageGuild)) {
+      await i.reply({ content: 'No tenés permisos para modificar la configuración de este servidor.', flags: MessageFlags.Ephemeral });
+      return;
+    }
+
     await i.reply({
       content: 'Seleccioná la zona horaria de este servidor:',
       components: [buildTzSelectRow()],
@@ -523,6 +529,11 @@ client.on('interactionCreate', async (i) => {
 
   // /showconfig
   if (i.isChatInputCommand() && i.commandName === 'showconfig') {
+    if (!i.memberPermissions?.has(PermissionFlagsBits.ManageGuild)) {
+      await i.reply({ content: 'No tenés permisos para ver la configuración de este servidor.', flags: MessageFlags.Ephemeral });
+      return;
+    }
+
     const cfg = readConfig();
     const rec = cfg[i.guildId] || {};
     const tz = rec.tz || '*no definida*';
