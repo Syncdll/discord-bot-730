@@ -203,6 +203,8 @@ async function sendTimezoneSetup(guild) {
     components: [buildTzSelectRow()],
   });
 
+  await channel.send({ content: `Powered by **SYNC.dll**` });
+
   info('SETUP', 'sent', {
     guild: guild.name,
     channel: channel.name,
