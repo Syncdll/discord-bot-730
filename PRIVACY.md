@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **7 30**  
-A SYNC project.
+A SYNC.dll project.
 
 Last updated: October 8, 2026.
 
