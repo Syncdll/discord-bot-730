@@ -1,7 +1,7 @@
 # Terms of Service
 
 **7 30**  
-A SYNC project.
+A SYNC.dll project.
 
 Last updated: October 8, 2026.
 
@@ -37,7 +37,7 @@ You may not use 7 30:
 
 7 30 is provided on an as-available basis.
 
-SYNC does not guarantee uninterrupted operation, permanent availability, or error-free service.
+SYNC.dll does not guarantee uninterrupted operation, permanent availability, or error-free service.
 
 Maintenance, software changes, Discord API changes, infrastructure failures, or other events may temporarily affect availability.
 
@@ -61,7 +61,7 @@ The software license and these Terms of Service serve different purposes: the li
 
 7 30 is provided "as is", without warranties of any kind to the extent permitted by law.
 
-SYNC is not responsible for indirect, incidental, consequential, or special damages arising from use of or inability to use the bot.
+SYNC.dll is not responsible for indirect, incidental, consequential, or special damages arising from use of or inability to use the bot.
 
 ## Suspension or termination
 
