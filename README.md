@@ -7,7 +7,7 @@
 7 30 is a Discord bot for Spanish-speaking communities that plays a scheduled audio event at **07:30** and **19:30**.
 Each server can select its local timezone from supported Spanish-speaking countries.
 
-Built by **SYNC**.
+Built by **SYNC.dll**.
 
 <p align="center">
   <a href="https://discord.com/oauth2/authorize?client_id=1424582612009095279">
