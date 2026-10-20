@@ -66,8 +66,8 @@ Installation scopes:
 Clone the repository and install the exact dependency versions:
 
 ```bash
-git clone <repository-url>
-cd 7-30
+git clone https://github.com/Syncdll/discord-bot-730.git
+cd discord-bot-730
 npm ci
 ```
 
